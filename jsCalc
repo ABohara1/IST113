@@ -1,0 +1,31 @@
+function addNum(first, second){
+console.log("Adding Numbers:" + (first + second));
+}
+
+function subNum(first, second){
+console.log("Subtracting Numbers:" + (first - second));
+}
+
+function divNum(first, second){
+console.log("Dividing Numbers:" + first / second);
+}
+
+function mulNum(first, second){
+console.log("Multiplying Numbers:" + first * second);
+}
+
+function myDriver(){
+
+console.log("Add:"+1+","+2);
+console.log(addNum(1,2));
+
+console.log("Subtract:"+25+","+10);
+console.log(subNum(25,10));
+
+console.log("Divide:" + 20 +"," + 2);
+console.log(divNum(20,2));
+
+console.log("Multiply:" + 10 +"," + 5);
+console.log(mulNum(10,5));
+}
+myDriver();
